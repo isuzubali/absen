@@ -414,7 +414,6 @@ class CompiledApp {
       _1300: (x0,x1) => x0.createElement(x1),
       _1301: (x0,x1,x2) => x0.setAttribute(x1,x2),
       _1303: (x0,x1) => x0.getAttribute(x1),
-      _1307: (x0,x1,x2,x3) => x0.open(x1,x2,x3),
       _1309: x0 => x0.remove(),
       _1312: x0 => globalThis.URL.createObjectURL(x0),
       _1315: (module,f) => finalizeWrapper(f, function(x0) { return module.exports._1315(f,arguments.length,x0) }),
