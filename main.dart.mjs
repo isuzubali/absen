@@ -424,7 +424,6 @@ class CompiledApp {
       _1324: (x0,x1,x2,x3) => x0.addEventListener(x1,x2,x3),
       _1325: (x0,x1,x2,x3) => x0.removeEventListener(x1,x2,x3),
       _1327: (x0,x1) => x0.getAttribute(x1),
-      _1331: (x0,x1,x2,x3) => x0.open(x1,x2,x3),
       _1337: (module,f) => finalizeWrapper(f, function(x0) { return module.exports._1337(f,arguments.length,x0) }),
       _1338: (module,f) => finalizeWrapper(f, function(x0) { return module.exports._1338(f,arguments.length,x0) }),
       _1339: (module,f) => finalizeWrapper(f, function(x0) { return module.exports._1339(f,arguments.length,x0) }),
